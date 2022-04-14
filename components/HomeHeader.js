@@ -32,7 +32,7 @@ const HomeHeader = ({ onSearch }) => {
           }}
         >
           <Image
-            source={assets.person01}
+            source={assets.person03}
             resizeMode="contain"
             style={{
               width: "100%",
