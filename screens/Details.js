@@ -90,7 +90,7 @@ const Details = ({ route, navigation }) => {
                     color: COLORS.primary,
                   }}
                 >
-                  Current Bid
+                  {data.bids.length === 1 ? "Current Bid" : "Current bids"}
                 </Text>
               )}
             </View>

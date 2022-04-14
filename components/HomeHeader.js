@@ -32,11 +32,12 @@ const HomeHeader = ({ onSearch }) => {
           }}
         >
           <Image
-            source={assets.person03}
+            source={assets.simon}
             resizeMode="contain"
             style={{
               width: "100%",
               height: "100%",
+              borderRadius: SIZES.font * 10,
             }}
           />
           <Image
